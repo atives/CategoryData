@@ -1,0 +1,94 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+body {
+    font-family: "vazir";
+}
+.search_box{
+	background-color: #02a69d;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	
+	padding: 50px 20px;
+	
+	
+}
+.serch_input{
+	border: none;
+	border-radius: 5px;
+	padding: 10px 140px;
+	font-size: 18px;
+}
+.ticket_type-box{   
+	display: flex;
+	justify-content: space-between;
+	margin: 2rem 2rem;
+}
+.ticket_type-btn{
+	background-color: #e7f7f7;
+	border: none;
+padding: 30px;
+	font-size: 30px;
+}
+.ticket_box{
+	background-color: #e7f7f7;
+	padding: 2.5rem;
+	margin: 1rem 2rem;
+}
+.ticket_data{
+
+	font-size: 30px;
+	color:#02a69d;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+
+}
