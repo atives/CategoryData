@@ -20,19 +20,19 @@ function Index() {
         Component={RenderData}
         dataName={[
           {
-            name: "نام",
+            name: "name:",
             key: "name",
           },
           {
-            name: "قیمت",
+            name: "price:",
             key: "price",
           },
           {
-            name: "ساعت",
+            name: "clock:",
             key: "clock",
           },
           {
-            name: "نوع",
+            name: "type:",
             key: "type",
           },
         ]}

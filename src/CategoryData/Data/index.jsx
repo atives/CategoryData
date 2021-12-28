@@ -4,21 +4,27 @@ export const Data = [
     clock: "7:00 ",
     type: "economy",
     price: "12$",
-    name: "Ali reza",
+    name: "user1",
   },
   {
     clock: "9:00 ",
 
     type: "vip",
     price: "70$",
-    name: "Shakiba",
+    name: "user2",
   },
 
   {
     clock: "19:00 ",
     type: "economy",
     price: "15$",
-    name: "Ali",
+    name: "user3",
+  },
+  {
+    clock: "19:00 ",
+    type: "economy",
+    price: "15$",
+    name: "user4",
   },
   {
     clock: "19:00 ",
@@ -30,30 +36,24 @@ export const Data = [
     clock: "19:00 ",
     type: "economy",
     price: "15$",
-    name: "Ali",
+    name: "user5",
   },
   {
     clock: "19:00 ",
     type: "economy",
     price: "15$",
-    name: "Ali",
+    name: "user6",
   },
   {
     clock: "19:00 ",
     type: "economy",
     price: "15$",
-    name: "Ali",
+    name: "user7",
   },
   {
     clock: "19:00 ",
     type: "economy",
     price: "15$",
-    name: "Ali",
-  },
-  {
-    clock: "19:00 ",
-    type: "economy",
-    price: "15$",
-    name: "Ali",
+    name: "user8",
   },
 ];
